@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #3a6186, #05000e); 
+    color: white;
+    height: 100vh;
+    display: flex;   
+    display: grid; 
+    place-items: center;
+}
+
+form {
+    background: rgba(255, 255, 255, 0.1); 
+    border-radius: 15px;
+    padding: 30px 40px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); 
+    backdrop-filter: blur(10px); 
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    
+}
+
+h1, h2 {
+    text-align: center;
+    font-weight: 700;
+    color: #f3edec; 
+    margin-bottom: 10px;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 12px 15px;
+    margin: 10px 0;
+    border-radius: 25px;
+    border: 1px solid #f8f7f1; /
+    background: rgba(49, 31, 31, 0.2);
+    color: white;
+    font-size: 16px;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+input[type="text"]:focus, input[type="password"]:focus {
+    border: 1px solid white; 
+    background: rgba(255, 255, 255, 0.3);
+}
+
+input[type="submit"] {
+    background-color: #ebeae5; 
+    color: black;
+    padding: 12px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: white;
+    color: #3a6186;
+}
+
+p {
+    margin: 0;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.center {
+    text-align: center;
+}
+.error-text {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
