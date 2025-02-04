@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
-    background: linear-gradient(to right, #142d44, #120105); /* Classy gradient background */
+    background: linear-gradient(to right, #142d44, #120105); 
     color: white;
     height: 100vh;
     display: flex; /* Flexbox for centering */
@@ -11,11 +11,11 @@ body {
 }
 
 form {
-    background: rgba(237, 231, 231, 0.1); /* Slightly transparent white box */
+    background: rgba(237, 231, 231, 0.1);
     border-radius: 15px;
     padding: 30px 40px;
-    box-shadow: 0 4px 30px rgba(68, 67, 67, 0.1); /* Subtle shadow for depth */
-    backdrop-filter: blur(10px); /* Glassmorphism effect */
+    box-shadow: 0 4px 30px rgba(68, 67, 67, 0.1); 
+    backdrop-filter: blur(10px); 
     max-width: 400px;
     width: 100%;
     text-align: center;
@@ -24,7 +24,7 @@ form {
 h1 {
     text-align: center;
     font-weight: 700;
-    color: #ffd700; /* Gold color for heading */
+    color: #ffd700; 
     margin-bottom: 20px;
 }
 
@@ -33,7 +33,7 @@ input[type="email"], input[type="password"] {
     padding: 12px 15px;
     margin: 10px 0;
     border-radius: 25px;
-    border: 1px solid #e4e3dd; /* Gold border */
+    border: 1px solid #e4e3dd; 
     background: rgba(244, 241, 241, 0.2);
     color: white;
     font-size: 16px;
@@ -42,12 +42,12 @@ input[type="email"], input[type="password"] {
 }
 
 input[type="email"]:focus, input[type="password"]:focus {
-    border: 1px solid white; /* Focus effect */
+    border: 1px solid white; 
     background: rgba(233, 229, 229, 0.3);
 }
 
 button[type="submit"] {
-    background-color: #f7f6f0; /* Gold button */
+    background-color: #f7f6f0; 
     color: black;
     padding: 12px 20px;
     font-size: 18px;
