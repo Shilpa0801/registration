@@ -36,13 +36,7 @@ function Home() {
           onClick={logOut}
           variant="dark"
           style={{
-            position: 'absolute',
-            left: '10px',
-            top: '20px',
-            padding: '10px 20px',
-            fontSize: '16px',
-          }}
-        >
+            position: 'absolute',left: '10px', top: '20px', padding: '10px 20px',fontSize: '16px',}} >
           Logout
         </Button>
       </div>
